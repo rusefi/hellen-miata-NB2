@@ -1,0 +1,80 @@
+*** Hellen One: Hellen72 Frame specs (DRAFT) ***
+
+General info: https://rusefi.com/s/hellen72/
+
+EDA Software: Altium Designer
+
+Board/connector footprints source: <.../hw_72_nb>
+
+Pinout spreadsheet: <...>
+
+Modules:
+  - mcu/0.1
+  - input/0.1
+  - output/0.1
+  - power5/0.1
+  - power12/0.1
+  - can/0.1
+  - lin/0.1
+  - ign8/0.1
+  - sd/0.1
+  - stlink/0.1
+  - knock/0.1
+
+- Additional components:
+  - USB-B vertical TH: TE 5787834-1
+  - "PROG" button
+  - "RESET" button
+  - Accelerometer
+  - MAP sensor: MPX4250AP
+  - SD-Card module connector: <SD-CARD module info>
+  - "Extension port" connector: 
+    - UART
+    - SPI
+    - IO1-IO4
+    - +3.3V, +5V, +12V, GND
+
+- Board configuration:
+  - Jumper resistors for pins:
+    - 3L = IN_AFR or OUT_IGN7
+    - 3Z = GNDA or OUT_IGN5
+    - 4K = V5A or OUT_IGN6
+    - 4U = IN_MAP2 or OUT_IGN8
+    - IN_VIGN = 4S or 4T
+  - Standard input pullups (V5A): 
+    - RES1, RES2
+    - AUX1, AUX2, AUX3, AUX4
+    - TPS, PPS, O2S, O2S2, IAT, CLT
+    - CRANK, CAM, VSS
+    - SENS3 (FUEL_LEVEL)
+  - Standard input pulldowns (GNDA): 
+    - MAP1, MAP2, MAP3, MAP4
+    - KNOCK
+    - SENS1, SENS2, SENS4
+  - Additional pulldowns (GNDA):
+    - IN_MAF (1k)
+
+- Additional LEDS:
+  - IGN1-IGN8 (to GND)
+  - INJ1-INJ8 (to +12V, protected)
+  - AC, PUMP, IDLE, ECF, VVT, O2H, O2H2, CE, ALT_WARN, MAIN, CANIST (to +12V, protected)
+  - TACH, ALTERN, VIGN (to GND, protected)
+  - CRANK, CAM, VSS (to +5V, protected)
+  - +5V, +3.3V
+  - Jumper resistors for LEDS: VSS, CAM, CRANK
+
+- Additional TEST PADS:
+  - +12V
+  - +5V
+  - +3.3V
+  - GND
+
+- Silkscreen:
+  - silkscreen/board orientation - the ECU connector is at the top
+  - all pins named (both sides)
+  - https://rusefi.com/s/hellen72/
+  - "for notes" area 50x20 mm
+
+- Special layout requirements:
+  - SD-Card should be 10-20 mm away from other components
+  - MPX4250 hose output opposite to the ECU connector
