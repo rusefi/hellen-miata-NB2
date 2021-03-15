@@ -8,4 +8,6 @@ https://github.com/rusefi/rusefi/wiki/Hellen72
 
 We love https://github.com/thesourcerer8/altium2kicad
 
+https://github.com/rusefi/rusefi/wiki/Mazda-Miata-2003
+
 ![x](hellen72a.jpg)
