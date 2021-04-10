@@ -12,4 +12,4 @@ https://github.com/rusefi/rusefi/wiki/Mazda-Miata-2001
 
 https://github.com/rusefi/rusefi/wiki/Mazda-Miata-2003
 
-![x](hellen72a.jpg)
+For photos see https://github.com/rusefi/rusefi/wiki/Hellen72
