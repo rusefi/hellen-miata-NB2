@@ -13,3 +13,8 @@ https://github.com/rusefi/rusefi/wiki/Mazda-Miata-2001
 https://github.com/rusefi/rusefi/wiki/Mazda-Miata-2003
 
 ![x](hellen72a.jpg)
+
+
+Compatible cases:
+
+89661-3T270
