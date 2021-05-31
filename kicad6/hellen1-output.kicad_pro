@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [],
@@ -331,7 +331,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hellen1-dinput4.kicad_pro",
+    "filename": "hellen1-output.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -396,6 +396,7 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -417,6 +418,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "2083a72f-1c02-4671-8f5c-ecacf13a947c",
+      ""
+    ]
+  ],
   "text_variables": {}
 }
