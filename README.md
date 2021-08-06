@@ -15,6 +15,10 @@ https://github.com/rusefi/rusefi/wiki/Mazda-Miata-2003
 For photos see https://github.com/rusefi/rusefi/wiki/Hellen72
 
 
-Compatible cases:
+# Compatible cases
 
 89661-3T270
+
+# Hardware
+
+M4 x 10mm will be good for NB external case and internal board to case for both NA and NB.
