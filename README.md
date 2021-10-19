@@ -1,10 +1,10 @@
-# hellen72
+# Miata NB2
 
 a rusEFI board with a 72 pin connector. Works for a Mazda Miata NB2 or any generic 8 cylinder vehicle :)
 
-https://github.com/andreika-git/hellen-one
+[User Documentation](https://github.com/rusefi/rusefi/wiki/Hellen72)
 
-https://github.com/rusefi/rusefi/wiki/Hellen72
+
 
 We love https://github.com/thesourcerer8/altium2kicad
 
@@ -22,3 +22,6 @@ For photos see https://github.com/rusefi/rusefi/wiki/Hellen72
 # Hardware
 
 M4 x 10mm will be good for NB external case and internal board to case for both NA and NB.
+
+
+Powered by https://github.com/andreika-git/hellen-one
