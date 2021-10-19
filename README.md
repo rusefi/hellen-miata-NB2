@@ -4,7 +4,7 @@ a rusEFI board with a 72 pin connector. Works for a Mazda Miata NB2 or any gener
 
 [User Documentation](https://github.com/rusefi/rusefi/wiki/Hellen72)
 
-
+[Issue Tracker](https://github.com/rusefi/hellen-NB2-issues)
 
 We love https://github.com/thesourcerer8/altium2kicad
 
