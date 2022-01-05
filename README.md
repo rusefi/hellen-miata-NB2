@@ -2,7 +2,7 @@
 
 a rusEFI board with a 72 pin connector. Works for a Mazda Miata NB2 or any generic 8 cylinder vehicle :)
 
-[User Documentation](https://github.com/rusefi/rusefi/wiki/Hellen72)
+[User Documentation](https://github.com/rusefi/rusefi/wiki/Hellen-NB2)
 
 [Issue Tracker](https://github.com/rusefi/hellen-NB2-issues)
 
@@ -12,7 +12,7 @@ https://github.com/rusefi/rusefi/wiki/Mazda-Miata-2001
 
 https://github.com/rusefi/rusefi/wiki/Mazda-Miata-2003
 
-For photos see https://github.com/rusefi/rusefi/wiki/Hellen72
+For photos see https://github.com/rusefi/rusefi/wiki/Hellen-NB2
 
 
 # Compatible cases
