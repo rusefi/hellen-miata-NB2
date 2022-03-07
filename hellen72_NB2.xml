@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>G:\RADIO\PROJECTS\S3EFI\Hellen\src\!release\!hellen-boards\commercial_products\hellen_NB2\hellen72_NB2.kicad_sch</source>
-    <date>05/03/2022 15:23:11</date>
+    <date>07/03/2022 20:22:11</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1120,7 +1120,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen72_NB2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ef04da57-4b19-4699-a300-a7c31972f660 55b40ec7-180b-4cdb-a45d-769423e8b51b 2491bc1e-e5b1-4fb8-a6b1-0e8865d2abd0 0437e834-c13e-424a-9ad2-040b8ce9ed1d</tstamps>
+      <tstamps>ef04da57-4b19-4699-a300-a7c31972f660 2491bc1e-e5b1-4fb8-a6b1-0e8865d2abd0 55b40ec7-180b-4cdb-a45d-769423e8b51b 0437e834-c13e-424a-9ad2-040b8ce9ed1d</tstamps>
     </comp>
     <comp ref="M2">
       <value>Module-ign8-0.1</value>
@@ -1132,7 +1132,7 @@
       <tstamps>91b56abf-9ad5-4be8-a5c5-2398d74dccc7</tstamps>
     </comp>
     <comp ref="M3">
-      <value>Module-mcu144-0.6</value>
+      <value>Module-mcu-0.6</value>
       <footprint>hellen-one-mcu-0.6:mcu</footprint>
       <libsource lib="hellen-one-mcu-0.6" part="Module-mcu-0.6" description="Hellen One MCU Module"/>
       <property name="Sheetname" value=""/>
@@ -1247,7 +1247,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen72_NB2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>795890df-a6bd-4dfa-9f2a-3a4a16e2521d 4aa5975a-686d-4000-acd3-f3ba1beba9e2 c0df41d0-9820-47d3-a152-f0ffc6d8b560 34ff233d-8721-4d1b-b4b3-d4a312d52bd6 1b56c00b-60da-490b-b4d1-bf16e46a6558</tstamps>
+      <tstamps>795890df-a6bd-4dfa-9f2a-3a4a16e2521d 4aa5975a-686d-4000-acd3-f3ba1beba9e2 34ff233d-8721-4d1b-b4b3-d4a312d52bd6 c0df41d0-9820-47d3-a152-f0ffc6d8b560 1b56c00b-60da-490b-b4d1-bf16e46a6558</tstamps>
     </comp>
     <comp ref="P3">
       <value>Pad</value>
@@ -2157,7 +2157,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen72_NB2.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ca5a3657-25e2-4020-a043-a7026e9204ac c43c9d4a-5fad-42c9-a7c6-3c2ef0041169 4fc00b0e-4906-49b6-906e-53ecedee471b</tstamps>
+      <tstamps>c43c9d4a-5fad-42c9-a7c6-3c2ef0041169 ca5a3657-25e2-4020-a043-a7026e9204ac 4fc00b0e-4906-49b6-906e-53ecedee471b</tstamps>
     </comp>
     <comp ref="U4">
       <value>LPS25HB</value>
@@ -4744,25 +4744,25 @@
       <node ref="G6" pin="11" pintype="passive"/>
       <node ref="G6" pin="6" pintype="passive"/>
     </net>
-    <net code="255" name="Net-(G6-Pad9)">
-      <node ref="G6" pin="14" pintype="passive"/>
-      <node ref="G6" pin="4" pintype="passive"/>
-      <node ref="G6" pin="9" pintype="passive"/>
-    </net>
-    <net code="256" name="Net-(G6-Pad10)">
+    <net code="255" name="Net-(G6-Pad10)">
       <node ref="G6" pin="10" pintype="passive"/>
       <node ref="G6" pin="15" pintype="passive"/>
       <node ref="G6" pin="5" pintype="passive"/>
     </net>
-    <net code="257" name="Net-(G6-Pad12)">
+    <net code="256" name="Net-(G6-Pad12)">
       <node ref="G6" pin="12" pintype="passive"/>
       <node ref="G6" pin="2" pintype="passive"/>
       <node ref="G6" pin="7" pintype="passive"/>
     </net>
-    <net code="258" name="Net-(G6-Pad13)">
+    <net code="257" name="Net-(G6-Pad13)">
       <node ref="G6" pin="13" pintype="passive"/>
       <node ref="G6" pin="3" pintype="passive"/>
       <node ref="G6" pin="8" pintype="passive"/>
+    </net>
+    <net code="258" name="Net-(G6-Pad14)">
+      <node ref="G6" pin="14" pintype="passive"/>
+      <node ref="G6" pin="4" pintype="passive"/>
+      <node ref="G6" pin="9" pintype="passive"/>
     </net>
     <net code="259" name="Net-(G7-Pad1)">
       <node ref="G7" pin="1" pintype="passive"/>
